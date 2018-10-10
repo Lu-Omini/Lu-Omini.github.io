@@ -1,0 +1,93 @@
+body{
+  background: #EBEBEB;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.91) 0%, rgba(255, 255, 255, 0.6) 50%), url(images/photo-1.jpeg);color:  #7d7d7d;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+img {
+
+  width: 50%;
+}
+
+#2{
+  image-rendering: auto;
+}
+
+.btn-orange {
+    background-color: orange;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+a:hover{
+  background-color: red;
+}
+
+.container {
+  width: 900px;
+  margin: 30px auto;
+}
+
+.on-the-left{
+  text-align: left;
+}
+
+.on-the-right{
+  text-align: left;
+}
+
+p{
+  text-align: center;
+}
+
+div > h3, p {
+  text-align: center;
+  padding: 20px;
+}
+
+.two-columns {
+  justify-content: space-evenly;
+  display: flex;
+}
+.card{
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.text-center{
+  text-align: center;
+}
+
+.list-inline {
+  padding-left: 0;
+}
+
+
+.list-inline li {
+  display: inline-block;
+  padding: 20px;
+}
+.list-inline li i{
+  font-size: 25px;
+}
+.two-columns:hover{
+  opacity: 0.6;
+
+}
+
+.two-columns img{
+  width: 160px;
+}
